@@ -1,22 +1,18 @@
-.App {
-  text-align: center;
+#root {
+    background-color: #fcfafc;
 }
-
-.App-logo {
-  height: 40vmin;
+.container {
+    min-height: 100vh;
+    height: 100%;
+    text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.titleMargin{
+    margin: 2% 2%;
 }
-
-.App-link {
-  color: #09d3ac;
+.buttonMargin{
+    margin-bottom: 1%;
+}
+.canvas {
+    font-family: Lucida Console;
+    letter-spacing: 10px;
 }
