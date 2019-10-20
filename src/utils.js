@@ -89,8 +89,8 @@ export let verificationCommand = {
         L: function (command, canvasResult) {
             return line(command, canvasResult)
         },
-        R: function (command) {
-            return rectangle(command)
+        R: function (command, canvasResult) {
+            return rectangle(command, canvasResult)
         }
     },
     identifyCommand: function (command, canvasResult) {
